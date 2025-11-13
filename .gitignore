@@ -32,3 +32,32 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Node.js / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build artifacts
+*.class
+*.jar
+!gradle-wrapper.jar
+*.war
+*.ear
+out/
